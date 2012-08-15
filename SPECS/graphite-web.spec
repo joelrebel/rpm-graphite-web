@@ -101,7 +101,7 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}
 %attr(0775,graphite,graphite) %{_sharedstatedir}/graphite
 %{python_sitelib}/graphite
-%{python_sitelib}/graphite_web-%{version}-py%{pyver}.egg-info
+%{python_sitelib}/graphite_web-%{version}-py%{python_version}.egg-info
 %attr(0755,graphite,graphite) %dir %{_localstatedir}/log/graphite
 
 %changelog
